@@ -28,6 +28,7 @@ public class Stack<T> {
         System.out.println("Removed entry: "+entry);
         return entry;
     }
+    
     @SuppressWarnings("unchecked")
 	private void increaseStackCapacity(){
         

@@ -38,10 +38,10 @@ public class InfixExpression {
 	        // next to next an operand  
 	        char opr = exp.charAt(i), opd = exp.charAt(i+1);  
 	  
-	        // If next to next character is not an operand  
+	      
 	        if (isOperand(opd) == false) return -1;  
 	  
-	        // Update result according to the operator  
+	        
 	        if (opr == '+') res += value(opd);  
 	        else if (opr == '-') res -= value(opd);  
 	        else if (opr == '*') res *= value(opd);  
